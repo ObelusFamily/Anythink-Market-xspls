@@ -36,13 +36,13 @@ const ItemPreview = (props) => {
     >
       {!item.image && 
       <img
-        alt="image"
+        alt="default placeholder for missing link/image"
         src={"/placeholder.png"}
         className="card-img-top item-img"
         style={{ borderRadius: "20px" }}
       />}
       <img
-        alt="image"
+        alt="actual display picture if inputted"
         src={item.image}
         className="card-img-top item-img"
         style={{ borderRadius: "20px" }}
